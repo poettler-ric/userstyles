@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Chessable No Sales
+@namespace      https://github.com/poettler-ric/userstyles
+@homepageURL    https://raw.githubusercontent.com/poettler-ric/userstyles/master/chessable.no-sales.user.css
+@version        1.0.0
+@license        MIT
+@description    On chessable.com, hide sales notifications
+@author         github.com/poettler-ric
+==/UserStyle== */
+
+@-moz-document domain("chessable.com") {
+  .promo-sale-banners {
+    display: none
+  }
+}
