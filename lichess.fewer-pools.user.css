@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name           Lichess Fewer lobby pools
+@namespace      https://github.com/poettler-ric/userstyles
+@homepageURL    https://raw.githubusercontent.com/poettler-ric/userstyles/master/lichess.fewer-pools.user.css
+@version        1.0.0
+@license        MIT
+@description    On lichess.org, disable some lobby pool buttons
+@author         github.com/ornicar
+==/UserStyle== */
+
+@-moz-document domain("lichess.org") {
+  .lpools > [data-id="1+0"],
+  .lpools > [data-id="2+1"],
+  .lpools > [data-id="3+0"],
+  .lpools > [data-id="3+2"],
+  .lpools > [data-id="5+0"],
+  .lpools > [data-id="5+0"],
+  .lpools > [data-id="10+0"],
+  .lpools > [data-id="30+0"] {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+}
