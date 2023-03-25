@@ -15,6 +15,7 @@
   .lpools > [data-id="3+2"],
   .lpools > [data-id="5+0"],
   .lpools > [data-id="10+0"],
+  .lpools > [data-id="10+5"],
   .lpools > [data-id="30+0"] {
     opacity: 0.3;
     pointer-events: none;
