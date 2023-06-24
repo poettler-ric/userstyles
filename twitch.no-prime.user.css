@@ -8,7 +8,7 @@
 @author         github.com/poettler-ric
 ==/UserStyle== */
 
-@-moz-document domain("twitch.com") {
+@-moz-document domain("twitch.tv") {
   .prime-offers {
     display: none
   }
