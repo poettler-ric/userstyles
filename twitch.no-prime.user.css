@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Twitch No Prime
+@namespace      https://github.com/poettler-ric/userstyles
+@homepageURL    https://raw.githubusercontent.com/poettler-ric/userstyles/master/twitch.no-prime.user.css
+@version        0.9
+@license        MIT
+@description    Hide prime notifications on Twitch
+@author         github.com/poettler-ric
+==/UserStyle== */
+
+@-moz-document domain("twitch.com") {
+  .prime-offers {
+    display: none
+  }
+}
