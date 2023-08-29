@@ -2,14 +2,15 @@
 @name           Chessable No Annoyances
 @namespace      https://github.com/poettler-ric/userstyles
 @homepageURL    https://raw.githubusercontent.com/poettler-ric/userstyles/master/chessable.no-annoyances.user.css
-@version        1.0.0
+@version        1.0.1
 @license        MIT
 @description    On chessable.com, hide annoyances
 @author         github.com/poettler-ric
 ==/UserStyle== */
 
 @-moz-document domain("chessable.com") {
-  .fa-life-ring {
+  .fa-life-ring,
+  .fa-video {
     display: none
   }
 }
