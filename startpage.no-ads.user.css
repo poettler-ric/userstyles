@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Startpage no ads
+@namespace      https://github.com/poettler-ric/userstyles
+@homepageURL    https://raw.githubusercontent.com/poettler-ric/userstyles/master/startpage.no-ads.user.css
+@version        0.9
+@license        MIT
+@description    On Startpage remove ads
+@author         github.com/poettler-ric
+==/UserStyle== */
+
+@-moz-document domain("startpage.com") {
+  div#adBlock {
+    display: none
+  }
+}
