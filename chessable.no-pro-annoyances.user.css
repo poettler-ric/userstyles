@@ -12,4 +12,7 @@
   .table-unlock {
     display: none
   }
+  a[title="To see more you need a PRO membership. Click for more details."] {
+    display: none
+  }
 }
