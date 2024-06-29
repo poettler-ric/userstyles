@@ -2,17 +2,17 @@
 @name           Chessable No PRO Annoyances
 @namespace      https://github.com/poettler-ric/userstyles
 @homepageURL    https://raw.githubusercontent.com/poettler-ric/userstyles/master/chessable.no-pro-annoyances.user.css
-@version        0.1.2
+@version        0.1.3
 @license        MIT
 @description    On chessable.com, hide PRO annoyances
 @author         github.com/poettler-ric
 ==/UserStyle== */
 
 @-moz-document domain("chessable.com") {
-  .goProAttentionButton {
+  a.goProAttentionButton {
     display: none
   }
-  .table-unlock {
+  td.table-unlock {
     display: none
   }
   a[title="To see more you need a PRO membership. Click for more details."] {
