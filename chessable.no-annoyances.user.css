@@ -2,14 +2,19 @@
 @name           Chessable No Annoyances
 @namespace      https://github.com/poettler-ric/userstyles
 @homepageURL    https://raw.githubusercontent.com/poettler-ric/userstyles/master/chessable.no-annoyances.user.css
-@version        1.0.2
+@version        1.0.3
 @license        MIT
 @description    On chessable.com, hide annoyances
 @author         github.com/poettler-ric
 ==/UserStyle== */
 
 @-moz-document domain("chessable.com") {
-  .fa-video {
+  /* hide difficult moves and camera icon */
+  a.icon-button {
+    display: none
+  }
+  /* hide classroom */
+  a.left-header-button {
     display: none
   }
 }
