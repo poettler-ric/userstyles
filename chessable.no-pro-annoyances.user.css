@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Chessable No PRO Annoyances
+@namespace      https://github.com/poettler-ric/userstyles
+@homepageURL    https://raw.githubusercontent.com/poettler-ric/userstyles/master/chessable.no-pro-annoyances.user.css
+@version        0.1
+@license        MIT
+@description    On chessable.com, hide PRO annoyances
+@author         github.com/poettler-ric
+==/UserStyle== */
+
+@-moz-document domain("chessable.com") {
+  .table-unlock {
+    display: none
+  }
+}
